@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Budaya Indonesia</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><a href="index.html">Indonesia</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="index.html">Beranda</a></li>
+            <li><a class="nav-link scrollto active" href="about.html">About</a></li>
+            <li><a href="eksplor.html"><span>Eksplor</span> <i class="bi bi-chevron-right"></i></a></li>
+              </ul>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <section id="profil" class="profil">
+      <div class="container">
+          <div class="d-flex justify-content-center align-items-center">
+              <div class="col-md-7 d-md-flex flex-md-row flex-column gap-5 " data-aos="zoom-in">
+                  <div class="col-md-3 d-flex flex-column align-items-center">
+                      <img src="./assets/img/profil/agistiana-nurohman.jpg" alt="Gambar akun foto" class="mx-auto" data-aos="zoom-in">
+                      
+                  </div>
+                  <div class="col-md-8">
+                    <p class="title1 mt-3" style="font-weight: 700; font-size:1.4rem;">Agistiana Nurohman</p>
+                    <span class="title1 mb-4">Pelajar</span>
+                    <p>SMK Negeri 4 Kuningan</p>
+                    
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Kontak</h2>
+          
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Alamat:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>agistiananurohman@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Telepon:</h4>
+                <p>+62 831 6681 9166</p>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.4519815934173!2d108.68152037514677!3d-6.955890093044477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f0e97e9beddcb%3A0x2fd17d5f9eaf9d66!2sSMK%20Negeri%204%20Kuningan!5e0!3m2!1sid!2sid!4v1714482773534!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+             
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nama</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea class="form-control" name="message" rows="10" id="messsage" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message">Silahkan cek kembali !</div>
+                <div class="sent-message">Terima kasih sudah mengirim pesan !</div>
+              </div>
+              <div class="text-center"><button type="submit" onclick="handleMessage()">Kirim Pesan</button></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container footer-bottom clearfix">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Agistiana Nurohman</span></strong
+            >. All Rights Reserved
+          </div>
+          <!-- <div class="credits"> -->
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+  
+      <div id="preloader"></div>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+    </body>
+  </html>
